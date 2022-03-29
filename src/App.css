@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.app-btn {
+    width: 200px;
+    background-color: crimson;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    margin: 20px auto;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 25px;
+    display: block;
+}

@@ -1,0 +1,77 @@
+.add-page {
+    position: relative;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.add-page form {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.add-page form input {
+    width: 100%;
+    height:40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    border: 0;
+    outline: 0;
+    margin-bottom:30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: crimson;
+    border: 1.5px solid crimson;
+}
+
+.add-page form input::placeholder,
+.add-page form textarea::placeholder {
+    color: crimson;
+}
+
+.add-page form textarea {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    resize: none;
+    font-size: 13px;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    color: crimson;
+    border: 1.5px solid crimson;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.add-page form #note {
+    height: 120px!important;
+    border-top-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+
+.add-page button {
+    border: 0;
+    outline: 0;
+}
+
+.add-page a {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 0;
+}
